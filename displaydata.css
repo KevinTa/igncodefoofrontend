@@ -1,0 +1,324 @@
+div.accordion
+ {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	height: 5%;
+	border-bottom: 1px solid #808080;
+}
+
+div.articleobject
+{
+	background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+	height: 5%;
+	border-bottom: 1px solid #808080;
+}
+.secondline
+{
+	color:#808080;
+}
+.subheadline
+{
+	color:#808080
+}
+div.accordion.active, div.accordion:hover {
+    background-color: #f2f2f2;
+	border-left: solid #e60000 16px;
+}
+div.articleobject.active, div.articleobject:hover{
+	background-color: #f2f2f2;
+	border-left: solid #e60000 16px;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #090f0f;
+	width: 65%;
+    max-height: 0;
+    overflow: hidden;
+}
+
+span.numberlabelspan{
+	display:inline-block; 
+	width: 5%;
+	float: left;
+}
+p{
+	display:inline-block;
+	vertical-align: top; 
+	font-family: Verdana,Geneva,sans-serif;
+}
+span
+{
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+.firstline{
+	clear: both;
+	vertical-align: top; 
+	padding:0; 
+	margin:0;
+	display: block;
+	font-weight: bold;
+}
+
+.secondline
+{
+	padding:0; 
+	margin:0;
+	display: block;
+}
+.headline
+{
+	clear: both;
+	vertical-align: top;
+	padding:0; 
+	margin:0;
+	display: block;
+	font-weight: bold;
+}
+.subheadline
+{
+	padding:0; 
+	margin:0;
+	display: block;
+}
+
+span.timelabelspan{
+	display:inline-block; 
+	width: 10%;
+}
+#videoswitch:hover
+{
+	text-decoration: underline white;
+}
+#articleswitch:hover
+{
+	text-decoration:underline #e60000;
+}
+#videoswitch
+{
+	border-radius: 10%;
+    background: #e60000;
+    padding: 0.2%;
+    width: 40%;
+    height: 0.2%; 
+	display:inline;
+	float: left;
+	font-weight:bold;
+	color:white;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+#articleswitch
+{
+	border-radius: 6%;
+    background: white;
+    padding: 0.2%;
+    width: 40%;
+    height: 0.2%; 
+	float:left;
+	font-weight:bold;
+	display:inline;
+	color:#e60000;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+#toggle
+{
+	width:70%;
+}
+#articlesection 
+{ display:none; }
+#videosection 
+{ display:block; }
+iframe
+{
+	width: 466px;
+	height: 262px;
+}
+
+@media only screen and (max-width: 768px) {
+    div.accordion{
+        background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 40%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+	height: 3%;
+	border-bottom: 1px solid #808080;
+    }
+	div.articleobject
+{
+	background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 40%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+	height: 3%;
+	border-bottom: 1px solid #808080;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #090f0f;
+	width: 45%;
+    max-height: 0;
+    overflow: hidden;
+}
+	#toggle
+{
+	width:32%;
+}
+#videoswitch
+{
+	border-radius: 8px;
+    background: #e60000;
+    padding: 0.2%;
+    width: 20%;
+    height: 0.2%; 
+	display:inline;
+	font-size:12px;
+	font-weight:bold;
+	float: left;
+	color:white;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+#articleswitch
+{
+	border-radius: 8px;
+    background: white;
+    padding: 0.2%;
+    width: 20%;
+    height: 0.2%; 
+	font-size: 12px;
+	font-weight:bold;
+	float:left;
+	display:inline;
+	color:#e60000;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+iframe
+{
+	width: 306px;
+	height: 172px;
+}
+div.accordion.active, div.accordion:hover {
+    background-color: #f2f2f2;
+	border-left: solid #e60000 12px;
+}
+div.articleobject.active, div.articleobject:hover{
+	background-color: #f2f2f2;
+	border-left: solid #e60000 12px;
+}
+}
+@media only screen and (min-width: 800px) {
+    div.accordion{
+        background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+	height: 10%;
+	border-bottom: 1px solid #808080;
+    }
+	div.articleobject
+{
+	background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-left: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+	height: 10%;
+	border-bottom: 1px solid #808080;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: #090f0f;
+	width: 75%;
+    max-height: 0;
+    overflow: hidden;
+}
+	#toggle
+{
+	width:80%;
+}
+#videoswitch
+{
+	border-radius: 12px;
+    background: #e60000;
+    padding: 0.2%;
+    width: 40%;
+    height: 0.2%; 
+	display:inline;
+	font-size:18px;
+	font-weight:bold;
+	float: left;
+	color:white;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+#articleswitch
+{
+	border-radius: 12px;
+    background: white;
+    padding: 0.2%;
+    width: 40%;
+    height: 0.2%; 
+	font-size: 18px;
+	font-weight:bold;
+	display:inline;
+	color:#e60000;
+	border-style: solid;
+    border-color: #e60000;
+	text-align: center;
+}
+iframe
+{
+	width: 626px;
+	height: 352px;
+}
+div.accordion.active, div.accordion:hover {
+    background-color: #f2f2f2;
+	border-left: solid #e60000 18px;
+}
+div.articleobject.active, div.articleobject:hover{
+	background-color: #f2f2f2;
+	border-left: solid #e60000 18px;
+}
+}
